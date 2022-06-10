@@ -1,0 +1,157 @@
+nav{
+    background-color: whitesmoke;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    padding: 3px 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav a, .sidemenu a, .notfound a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    padding: 8px 16px;
+    display: inline;
+}
+.sidemenu ul li{
+    padding: 15px 0;
+    margin-left: 10%;
+}
+body{
+    background-image: url(https://wallpapercave.com/wp/wp3204058.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title{
+    margin: 3%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+.about{
+    display: flex;
+}
+.left{
+    width: 25%;
+    background-color: white;
+    box-shadow: 0 4px 0px 0 rgba(0,0,0,.2);
+    height: 100vh;
+}
+.right{
+    width: 50%;
+    aspect-ratio: 1/.3;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 30px;
+    height: 100%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.content .add{
+    padding: 2rem 2rem;
+    height: 20px;
+    width: 100%;
+    border-style:double;
+    border-color: black;
+    border-radius: 10px;
+}
+.data{
+    width: 50%;
+    border-radius: 20px;
+    background: white;
+    padding: 3%;
+}
+.todo{
+    display: flex;
+}
+.task{
+    width: 100%;
+    padding: 5px 5px;
+    margin: 15px 0 10px 20px;
+    font-size: large;
+    font-weight: 600;
+}
+.todo button{
+    margin-left: 10px;
+    background-color: rgb(241, 241, 241);
+    border: 0;
+    color: black;
+    padding: 1%;
+    border-radius: 10px;
+    margin: 15px 0 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: large;
+    font-weight: 600;
+    transition: .3s ease
+}
+.todo button:hover{
+    background-color: red;
+    color: white;
+}
+.todo input.check{
+    /* transform:scale(2) ; */
+    margin-top: 15px;
+    width: 2rem;
+    height: 2rem;
+}
+
+.addBox {
+    margin: 0 0 4% 0;
+    width: 50%;
+    border: none;
+    border-radius: 55px;
+    padding: 1% 3%;
+    background: white;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: space-between;
+}
+.addTodo, .addBox button{
+    border: 0;
+    background: transparent;
+    outline: none;
+    font-size: larger;
+    font-weight: 600;
+    padding: 1%;
+    border-radius: 10px;
+    transition: .2s ease
+}
+.addBox button:hover{
+    background-color: green;
+    color: white;
+}
+.addTodo{
+    width: 90%;
+    font-weight: 600;
+    font-size:large;
+}
+
+.notfound{
+    text-align: center;
+    margin-top: 20vh;
+}
+.notfound button{
+    background-color: red;
+    outline: none;
+    border-style: solid;
+    font-size: x-large;
+    font-weight: 600;
+    padding: 1%;
+    border-radius: 10px;
+    transition: .2s ease
+}
+.notfound button a{
+    color: white;
+}
+.notfound button:hover{
+    background-color: blue;
+    color: white;
+}
